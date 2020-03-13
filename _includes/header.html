@@ -29,7 +29,10 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item{% if page.layout == 'home' %} active{% endif %}">
-            <a class="nav-link" href="index.html">Bell & Howell <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item{% if page.permalink == 'bell-and-howell' %} active{% endif %}">
+            <a class="nav-link" href="bell-and-howell">Bell & Howell</a>
           </li>
           <li class="nav-item{% if page.permalink == 'pitney-bowes' %} active{% endif %}">
             <a class="nav-link" href="pitney-bowes">Pitney Bowes</a>
