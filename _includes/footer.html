@@ -1,22 +1,32 @@
-<footer class="bg-dark text-white pt-4">
+<footer class="bg-dark text-white pt-5 pb-5">
   <div class="container">
-   <div class="row">
-        <h3 class="col">Contact Information</h3>
-      </div>
-      <div class="row">
+      <div class="row mb-3">
         
-        <p class="col">MailingParts.com</p>
-        <p class="col">Phone: <a href="tel:417-713-4001">417-731-4001</a></p>
-        <p class="col">Ozark, MO 65721</p>
-        <p class="col">Email Us by Clicking on the Link Below:<br><a href="mailto: info@mailingparts.com">info@mailingparts.com</a></p>
-        
+        <div class="col border-right border-secondary">
+          <h6>Contact Us</h6>
+          <div class="list-group">
+            <a href="https://www.google.com/maps/place/Applied+Urethane+Technology+Inc./@37.0014315,-93.1955638,17z/data=!3m1!4b1!4m5!3m4!1s0x89c80699dd036771:0x2f8709d3e641e352!8m2!3d37.0014272!4d-93.1933751" target="_blank" class="text-white">{{ site.address }} {{ site.address2 }}</a>
+            <a href="tel:{{ site.phone }}" class="text-white">{{ site.phone }}</a>
+            <a href="mailto: {{site.email}}" class="text-white">{{site.email}}</a>
+          </div>
+          
+          
+        </div>
+        <div class="col">
+          <h6>Links</h6>
+          <div class="list-group">
+            <a href="/sitemap" class="text-white">Sitemap</a>
+            <a href="//appliedurethane.com" class="text-white">Applied Urethane</a>
+          </div>
+        </div>
       </div>
       <div class="row">
         <div class="col">
-        <p><small>{{site.title}} &copy; Copyright 2019-2020. All Rights Reserved.<br>
-        No part of this web site, including the Contents, Text, HTML Code, Graphics and Images contained herein, may be used or reproduced in any manner whatsoever without the prior written permission of MailingParts.com . Violators of this Copyright Notice will be prosecuted to the fullest extent of U.S. and International Copyright Laws.</small></p>
-      </div>
+          <p><small>{{site.title}} &copy; Copyright 2019-2020. All Rights Reserved.<br>
+              No part of this web site, including the Contents, Text, HTML Code, Graphics and Images contained herein, may be used or reproduced in any manner whatsoever without the prior written permission of MailingParts.com . Violators of this Copyright Notice will be prosecuted to the fullest extent of U.S. and International Copyright Laws.</small>
+          </p>
         </div>
+      </div>
   </div>
       
     </footer>

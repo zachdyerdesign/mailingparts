@@ -1,6 +1,10 @@
 title: MailingParts.com
 description: Mailing Equipment Urethane Replacement Parts and Products. We offer replacement rollers, belts, and tires for brands including Pitney Bowes, NPI, Bell &amp; Howell, Siemens, Opex and Data Card.
 url: "https://mailingparts.com"
+address: 1590 E Bain St
+address2: Ozark, MO 65721
+phone: 417-731-4001
+email: info@mailingparts.com
 plugins:
   - jekyll-feed
   - jekyll-sitemap
